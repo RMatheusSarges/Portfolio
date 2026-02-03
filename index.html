@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Reginaldo Sarges</title>
+</head>
+<body>
+  
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#sobre"  class="menu-link" >Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos"  class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos"  class="menu-link">Contatos</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Ínicio -->
+    <main id="inicio" class="cabecalho">
+      <div class="cabecalho-texto">
+          <h1 class="nome scramble" data-text="REGINALDO SARGES">
+            <span class="nome-principal cascade delay-1">REGINALDO</span>
+            <span class="nome-secundario cascade delay-2">SARGES</span>
+          </h1>
+          <p class="cabecalho-sub-titulo cascade delay-3">Desenvolvedor Full Stack</p>
+      </div>
+      
+      <div class="cabecalho-imagem cascade delay-4">
+        <img src="img/robopreto2.png" alt="Robô decorativo">
+      </div>
+    </main>
+    
+    <section id="sobre" class="sobre">
+        <div class="sobre-layout">
+
+    <!-- ESQUERDA -->
+    <div class="sobre-esquerda">
+      <h2 class="sobre-titulo">Sobre Mim</h2>
+
+      <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+          Oi! Meu nome é Reginaldo Matheus Rodrigues Sarges e sou estudante de Ciência da Computação. Desde criança sempre gostei de mexer no computador, muito por influência dos jogos, e com o tempo essa curiosidade virou interesse em entender como a tecnologia funciona por trás da tela. Foi assim que acabei entrando na área de programação.
+        </p>
+        <p class="sobre-paragrafo">
+          Tenho interesse tanto em front-end quanto em back-end — as duas áreas me chamam bastante atenção. Gosto de enfrentar desafios, errar, quebrar a cabeça e ir atrás da solução dos problemas, mesmo quando o mental já está quase no limite. É justamente nesse processo que sinto que mais aprendo.
+        </p>
+        <p class="sobre-paragrafo">
+          Consigo aprender pela teoria, mas sei que meu aprendizado acontece de verdade quando coloco a mão na massa: pesquisando, testando e desenvolvendo na prática. No momento, estou em busca de uma oportunidade de estágio para aprender no dia a dia e entender como o desenvolvimento de software funciona no mercado.
+        </p>
+      </div>
+    </div>
+
+    <!-- DIREITA -->
+    <div class="sobre-direita">
+      <div class="sobre-foto">
+        <img src="img/matheus.png" alt="Foto">
+      </div>
+
+    <div class="sobre-idiomas">
+      <h3>IDIOMAS</h3>
+
+      <div class="idioma">
+        <span class="idioma-nome">Português</span>
+        
+        <div class="barra">
+          <div class="progresso portugues"></div>
+        </div>
+
+        <span class="idioma-nivel">Nativo</span>
+      </div>
+
+      <div class="idioma">
+        <span class="idioma-nome">Inglês</span>
+        
+        <div class="barra">
+          <div class="progresso ingles"></div>
+        </div>
+
+        <span class="idioma-nivel">Intermediario</span>
+      </div>
+    </div>
+
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <p class="projetos-sobre"> 
+            Aqui você encontra todos os projetos que eu já trabalhei, sejam pessoais ou aquelas realizados em materias de extensão da faculdade.
+        </p>
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <img src="./img/artestudio.png" alt="Projeto 1" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                  <h3 class="info-projetos">Controle de Vendas</h3>
+                  <p class="paragrafo-projetos">Aplicativo de controle de vendas para uma Academia sobre o expositor que ficava a amostra, uso de maneira simples e responsiva</p>
+
+                  <div class="projeto-tags">
+                    <span class="tag">React Native</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Expo</span>
+                  </div>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="./img/ergase.png" alt="Projeto 2" class="projetos-imagem">
+                <div class="caixa-texto-projetos">
+                  <h3 class="info-projetos">OffQuiz</h3>
+                  <p class="paragrafo-projetos">Site para criar quiziz de maneira rapida, facil e offline</p>
+                  
+                   <div class="projeto-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contatos -->
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Contatos</h2>
+        <p class="contatos-sobre">Sinta-se à vontade para entrar em contato e conversar!</p>
+        <div class="contato-email-wrapper">
+        <a 
+          href="mailto:matheussarges25@gmail.com" 
+          class="contato-email"
+          id="emailTexto"
+        >
+          matheussarges25@gmail.com
+        </a>
+
+        <button 
+          class="copiar-email"
+          onclick="copiarEmail()"
+          aria-label="Copiar email"
+        >
+          <i class="fa-regular fa-copy"></i>
+        </button>
+      </div>
+
+    <!-- Ícones -->
+    <div class="contato-redes">
+      <a 
+        href="https://github.com/RMatheusSarges" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        aria-label="GitHub"
+      >
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+      <a 
+        href="https://www.linkedin.com/in/reginaldo-matheus-sarges-3078bb353/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+
+    </section>
+
+    <!-- Particulas -->
+    <div id="particles-js"></div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+    particlesJS("particles-js", {
+    particles: {
+        number: {
+        value: 90,
+        density: {
+            enable: true,
+            value_area: 900
+      }
+    },
+
+    color: {
+      value: "#ffffff"
+    },
+
+    shape: {
+      type: "circle"
+    },
+
+    opacity: {
+      value: 0.6
+    },
+
+    size: {
+      value: 2,
+      random: true
+    },
+
+    line_linked: {
+      enable: true,
+      distance: 150,
+      color: "#ffffff",
+      opacity: 0.15,
+      width: 1
+    },
+
+    move: {
+      enable: true,
+      speed: 0.3,
+      direction: "none",
+      random: true,
+      straight: false,
+      out_mode: "out",
+      bounce: false
+    }
+  },
+
+    interactivity: {
+    detect_on: "canvas",
+    events: {
+      onhover: { enable: false },
+      onclick: { enable: false },
+      resize: true
+    }
+  },
+
+    retina_detect: true
+    });
+    </script>
+
+    <!-- Copiar email botão -->
+    <script>
+      function copiarEmail() {
+        const email = document.getElementById("emailTexto").innerText;
+        navigator.clipboard.writeText(email);
+      }
+    </script>
+
+<!-- Animação no nome -->
+<script>
+  const letters = "X";
+
+  document.querySelectorAll(".scramble").forEach(el => {
+    const spanPrincipal = el.querySelector(".nome-principal");
+    const spanSecundario = el.querySelector(".nome-secundario");
+
+    const textPrincipal = spanPrincipal.textContent;
+    const textSecundario = spanSecundario.textContent;
+
+    el.addEventListener("mouseenter", () => {
+      let iteration = 0;
+      const totalLength = textPrincipal.length + textSecundario.length;
+
+      const interval = setInterval(() => {
+        let count = 0;
+
+        const scramble = (text) =>
+          text
+            .split("")
+            .map((char) => {
+              count++;
+              if (count < iteration) return char;
+              return letters;
+            })
+            .join("");
+
+        spanPrincipal.textContent = scramble(textPrincipal);
+        spanSecundario.textContent = scramble(textSecundario);
+
+        iteration += 1;
+
+        if (iteration > totalLength) {
+          clearInterval(interval);
+          spanPrincipal.textContent = textPrincipal;
+          spanSecundario.textContent = textSecundario;
+        }
+      }, 50);
+    });
+  });
+</script>
+
+</body>
+</html>

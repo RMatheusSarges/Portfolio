@@ -1,0 +1,62 @@
+@media (max-width: 480px) {
+ .cabecalho {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+  }
+
+  .cabecalho-texto {
+    max-width: 100%;
+  }
+
+  .nome {
+    font-size: clamp(2.5rem, 10vw, 3.5rem);
+  }
+
+  .cabecalho-sub-titulo {
+    font-size: 1.2rem;
+  }
+
+  .cabecalho-imagem {
+    margin-left: 0;
+    right: 0;
+    margin-top: 2rem;
+  }
+
+  .cabecalho-imagem img {
+    width: 220px;      
+    max-width: 100%;
+  }
+
+  .nome {
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  .nome-principal,
+  .nome-secundario {
+    font-size: clamp(2.4rem, 10vw, 3.2rem);
+  }
+
+  .navegacao {
+    width: 100%;
+  }
+
+   .menu {
+    gap: 1.5rem;
+  }
+
+  .menu-link {
+    font-size: 0.85rem;
+  }
+
+  .sobre-titulo {
+    text-align: center;  
+  }
+
+  .projeto-tags {
+    justify-content: center;
+  }
+}
