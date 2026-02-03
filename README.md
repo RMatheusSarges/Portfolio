@@ -3,7 +3,7 @@
 Este é o meu portfólio pessoal, onde apresento meus projetos, habilidades e informações de contato.
 
 🔗 **Acesse o site:**  
-https://rmatheussarges.github.io/Portfolio/#sobre
+https://rmatheussarges.github.io/Portfolio/#inicio
 
 ---
 
@@ -29,5 +29,5 @@ No portfólio você encontra projetos pessoais e acadêmicos, incluindo:
 ---
 
 ## 📬 Contato
-- GitHub: https://github.com/SEUUSUARIO
-- LinkedIn: https://www.linkedin.com/in/SEU-LINK/
+- GitHub: https://github.com/RMatheusSarges
+- LinkedIn: https://www.linkedin.com/in/reginaldo-matheus-sarges-3078bb353/
